@@ -18,7 +18,7 @@
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="App7.cpp">
+    <ClCompile Include="App8.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
