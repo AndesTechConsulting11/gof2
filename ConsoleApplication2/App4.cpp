@@ -50,7 +50,7 @@ int main() {
 
 	//--------------------------
 
-	ProtoClone(new Object1(1));
+	ProtoClone(new Object1(100));
 
 
 	//Object1 o1; o1.data = 1;
