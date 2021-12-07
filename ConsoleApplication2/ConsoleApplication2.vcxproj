@@ -145,7 +145,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="App5.cpp" />
+    <ClCompile Include="App6.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
