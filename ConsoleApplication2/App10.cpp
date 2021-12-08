@@ -98,13 +98,10 @@ void check_ptr() {
 	h3->setNextHandler(h3.get());
 	
 	h1->handleRequest(-2);
-
-
 }
 
 int main()
 {
-
 	H1 h1; H2 h2; H3 h3;
 
 	h1.setNextHandler(&h2);
