@@ -81,7 +81,6 @@ public:
 			s->update_subscribtion(this);
 			s->update_subscribtion(message);
 		}
-
 	}
 
 	virtual int getState() = 0;
@@ -113,7 +112,6 @@ public:
 
 private:
 	int state;
-
 };
 
 
@@ -130,13 +128,11 @@ void Subscriber::update_subscribtion(IMessage* m) {
 }
 
 
-
 int main() {
 
 	Subscriber s1(1);
 	Subscriber s2(2);
 	Subscriber s3(3);
-
 
 	Publisher* publisher = new BestPublisher();
 
@@ -148,8 +144,6 @@ int main() {
 		publisher->setState(i);
 		publisher->notify();
 
-		///
-
 		cout << s1.getState() << " --- " << s2.getState() << " --- " << s3.getState() << endl;
 	}
 
@@ -158,9 +152,8 @@ int main() {
 	publisher->setMessage(message);
 	publisher->notify();
 
-
-
 	delete publisher;
+	delete message;
 
 
 }
