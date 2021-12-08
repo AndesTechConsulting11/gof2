@@ -2,6 +2,7 @@
 
 using namespace std;
 
+
 struct IState {
 	virtual void doSmth() = 0;
 	virtual ~IState() {}
