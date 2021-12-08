@@ -42,6 +42,4 @@ int main() {
 
 	delete i1;
 	delete a1;
-
-
 }
