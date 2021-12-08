@@ -10,6 +10,7 @@ using namespace std;
 // Observer -> Subscriber
 //Subject -> Publisher
 
+//Message version!!!
 
 struct Publisher;
 
