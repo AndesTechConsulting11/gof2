@@ -95,7 +95,8 @@ int main() {
 	ct->restore();
 	cout << "3. state: " << o1->getState() << endl;
 
-
+	delete o1;
+	delete ct;
 
 
 	return 0;
